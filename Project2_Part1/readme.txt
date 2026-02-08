@@ -1,3 +1,4 @@
+Name: Elizabeth Dreste and Preet Kaur
 To run the program, please execute the following commands:
 1/ make
 2/ ./main

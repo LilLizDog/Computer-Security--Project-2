@@ -1,4 +1,14 @@
 Name: Elizabeth Dreste and Preet Kaur
+
+In this project, we implemented the DES cryptography system, which is a symmetric key block cipher algorithm. 
+To start, we implemented the key scheduler for DES. The key scheduler takes a 64-bit binary key and generates 
+16 different 48-bit subkeys that are used in each round of DES encryption. Out of the 64 bits, 56 bits are 
+used to generate the key, while 8 bits are parity bits and are not used in the scheduling process. The bits 
+used for key generation are first selected using the PC-1 permutation block, which is provided in des_utils.h. 
+The remaining steps of the key scheduling algorithm follow the DES standard and include splitting the key, 
+performing circular left shifts, and applying a second permutation (PC-2) to produce each subkey.
+
+
 To run the program, please execute the following commands:
 1/ make
 2/ ./main
